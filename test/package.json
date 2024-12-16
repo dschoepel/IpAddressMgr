@@ -1,22 +1,19 @@
 {
-  "name": "ipaddressmgr",
+  "name": "test",
   "version": "1.0.0",
-  "description": "IP Address Manager for Ubiquiti Network App devices",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon --trace-warnings src/serverV1.js"
   },
+  "keywords": [],
   "author": "Dave J Schoepel",
   "license": "MIT",
+  "description": "Testing node-unifi",
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "helmet": "^8.0.0",
-    "ipaddressmgr": "file:",
-    "morgan": "^1.10.0",
+    "node-unifi": "^2.5.1",
     "nodemon": "^3.1.9",
-    "puppeteer": "^23.10.4"
+    "test": "file:"
   }
 }
